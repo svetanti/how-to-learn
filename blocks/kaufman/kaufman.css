@@ -1,0 +1,29 @@
+@import url('../section-title/section-title.css');
+@import url('../section-title/_theme/section-title_theme_dark.css');
+@import url('../section-subtitle/section-subtitle.css');
+@import url('../section-subtitle/_theme/section-subtitle_theme_dark.css');
+@import url('../table/table.css');
+@import url('../table/_theme/table_theme_dark.css');
+@import url('../rotation/rotation.css');
+
+.kaufman {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.kaufman__triangle {
+  display: flex;
+  width: 877px;
+  height: 877px;
+  background-image: url('../../images/triangle.svg');
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: -210px;
+}
