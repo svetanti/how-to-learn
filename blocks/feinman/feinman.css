@@ -3,7 +3,7 @@
   background-color:  #f2f2f2;
   display: flex;
   flex-direction: column;
-  background-image: url('../../images/feinman.png');
+  background-image: url('../../images/feinman/feinman.png');
   background-position: left bottom;
   background-size: 867px 637px;
   background-repeat: no-repeat;
@@ -11,32 +11,4 @@
   justify-content: flex-start;
   position: relative;
   padding-top: 80px;
-}
-
-.feinman__title {
-  width: 648px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
-}
-
-.feinman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-align: center;
-  margin: 70px 0 0;
-}
-
-.feinman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  transform: translateY(-50%);
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  color: #000000;
 }

@@ -4,21 +4,3 @@
   align-items: center;
   padding: 100px 0 0 ;
 }
-
-.video__iframes {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: 50px;
-}
-
-.video__iframe {
-  width: 515px;
-  height: 316px;
-  margin: 0 20px 0 0;
-  position: relative;
-}
-
-.video__iframe:last-of-type {
-  margin-right: 0;
-}
