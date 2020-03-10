@@ -1,3 +1,7 @@
+@import url('__title/feinman__title.css');
+@import url('__subtitle/feinman__subtitle.css');
+@import url('__link/feinman__link.css');
+
 .feinman {
   min-height: 790px;
   background-color:  #f2f2f2;
