@@ -13,3 +13,10 @@
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    min-height: 500px;
+    max-height: 600px;
+  }
+}

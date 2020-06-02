@@ -1,6 +1,7 @@
 .video__iframes {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 20px;
   position: relative;
   top: 50px;
 }

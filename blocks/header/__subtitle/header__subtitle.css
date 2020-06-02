@@ -8,3 +8,11 @@
   left: 64px;
   bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__subtitle {
+    max-width: 30%;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+}

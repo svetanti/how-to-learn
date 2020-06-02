@@ -6,3 +6,10 @@
   bottom: 0;
   z-index: 1;
 }
+
+@media screen and (max-width: 1280px) {
+  .header__main-illustration {
+    width: 55%;
+    height: auto;
+  }
+}
