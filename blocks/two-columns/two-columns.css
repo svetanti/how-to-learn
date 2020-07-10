@@ -5,6 +5,24 @@
 
 .two-columns {
   width: 80%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 175px minmax(784px, 80%);
   justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .two-columns {
+    grid-template-columns: 175px 1fr;
+    grid-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .two-columns {
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-gap: 40px;
+  }
 }

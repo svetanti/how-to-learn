@@ -6,3 +6,9 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .two-columns__brief {
+    font-size: 22px;
+  }
+}

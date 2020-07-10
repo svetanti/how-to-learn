@@ -2,6 +2,7 @@
 @import url('__image/cards__image.css');
 @import url('__title/cards__title.css');
 @import url('__description//cards__description.css');
+@import url('__image-wrapper/cards__image-wrapper.css');
 
 .cards {
   min-width: 920px;
@@ -11,5 +12,5 @@
   display: grid;
   grid-column-gap: 100px;
   grid-row-gap: 0;
-  grid-template-columns: repeat(auto-fill, 240px);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
