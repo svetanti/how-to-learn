@@ -8,9 +8,12 @@
 * CSS
 
 ## Реализация
-1. Flexbox вёрстка
-2. CSS-анимация
-3. Файловая структура проекта по правилам Nested БЭМ
+* Flexbox вёрстка
+* CSS-анимация
+* Файловая структура проекта по правилам Nested БЭМ
+
+## Планы по доработке
+* Адаптировать сайт для просмотра на разных устройствах
 
 ## Ссылка на сайт:
 https://svetanti.github.io/how-to-learn/
@@ -27,9 +30,12 @@ The single page website is created using some advanced features of HTML and CSS.
 * CSS
 
 ## Realization
-1. Flexbox layout
-2. CSS-animation
-3. The Nested BEM file stucture
+* Flexbox layout
+* CSS-animation
+* The Nested BEM file stucture
+
+## Future improvements
+* To optimize website for different screen sizes
 
 ## URL:
 https://svetanti.github.io/how-to-learn/
